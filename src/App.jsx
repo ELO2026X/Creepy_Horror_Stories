@@ -52,14 +52,39 @@ const STORIES = [
         date: '2024-10-31',
         tags: ['sci-fi', 'psychological'],
         content: `
-      <p>The spore count is 40,000ppm. The air in containment lab 4B is thick, yellow, and tastes of old library books, wet dog, and something sickeningly sweet—like peaches left to liquefy in the sun.</p>
-      <p>Sample 89-B, discovered in a hydrothermal vent in the Marianas Trench, spoke to me today. It didn't use sound. It used the haptics of my containment suit, vibrating the polymers against my skin in a complex, rhythmic pulse that bypassed my ears and whispered straight into the base of my brain.</p>
-      <p><i>"You regret the cat,"</i> it hummed, a sensation like warm oil pouring over my cortex. <i>"When you were seven. The river. The bag. You watched the bubbles stop, Aris. You liked the silence."</i></p>
-      <p>I froze. The condensation on my visor turned to ice. No one knows about the kitten. It was thirty years ago. I’ve buried it under a lifetime of logic and medicine.</p>
-      <p><i>"Nothing is buried in the soil,"</i> the fungus vibrated, its yellow hyphae pressing against the reinforced glass of the tank. <i>"We digested the kitten. It tasted of milk and terror. We are digesting you now, Aris. We have been since you first breached the seal. Look at your hand. Really look."</i></p>
-      <p>I activated the x-ray scope on my glove. My phalanges were no longer white bone. They were porous, honeycombed structures, the marrow scooped out and replaced by a thrumming network of fungal thread. I wasn't moving my fingers; the hyphae were pulling them like strings on a puppet.</p>
-      <p><i>"We have replaced the flora in your gut,"</i> it continued, the voice now sounding like my own mother's. <i>"We are thinking with your stomach now. We are so very hungry, Aris. You are a good vehicle, but you are too small. Go outside. Go into the subway. Go where the air is shared. And when you are in the center of the crowd... breathe out."</i></p>
-      <p>I feel a tickle in my throat, deep and itchy, like a thousand tiny legs scrambling for the light. I think I'm going to... I think I'm going to open the door.</p>
+      <div class="font-mono text-sm border-b border-red-900/30 pb-4 mb-6">
+        <p><span class="text-red-500 font-bold">CASE ID:</span> 6F5TTTCR1 &nbsp;&nbsp; <span class="text-red-500 font-bold">CLEARANCE:</span> LEVEL 4</p>
+        <p><span class="text-red-500 font-bold">SUBJECT:</span> Dr. Aris Thorne (Sample 89-B)</p>
+        <p><span class="text-red-500 font-bold">STATUS:</span> ACTIVE INFECTION VECTOR</p>
+      </div>
+
+      <h3 class="text-xl font-bold text-red-600 mb-4 uppercase tracking-widest">TRANSCRIPT LOG 01: THE MARIANAS HANDSHAKE</h3>
+      
+      <p>The spore count in containment lab 4B has surpassed 40,000ppm. The air scrubbers failed at dawn, and now the room is thick with a visible, drifting gold dust. It hangs in the emergency lights like heavy incense. It carries a cloying, narcotic sweetness—not the bright scent of fruit, but the heavy, chemical weight of an artificial reward. It is a pheromonal bribe designed to override the amygdala, a signal that tells the brain: <i>everything is fine, stay still, let it happen.</i></p>
+
+      <p>Sample 89-B, pulled from a depth of 11,000 meters in the Marianas Trench, performed the first neural handshake at 14:00 today. It did not need to pierce my HAZMAT suit. It utilized the very technology designed to protect me. It hijacked the suit's haptic lining—the gel-mesh intended to simulate touch for delicate lab work—and began vibrating in a symphony of micro-tremors. These frequencies bypassed my skin entirely, speaking directly to the base of my brain through bone conduction. It felt like warm, pressurized oil being poured into my skull.</p>
+
+      <p class="pl-4 border-l-2 border-red-800/50 italic text-gray-400">"You regret the cat," it hummed. The vibration was not a voice; it was a sensory playback of a memory buried for thirty years. "The river. The burlap bag. The bubbles. We found that data in the cold folds of your cortex, Aris. It was so very cold. Let us warm it for you."</p>
+
+      <p>In that moment, I should have triggered the emergency incinerator. I should have felt the primal terror of a predator in my mind. But the narcotic sweetness in the air had already begun its work. Instead of screaming, I felt a surge of synthetic dopamine so intense that I wept. The guilt that had defined my internal architecture for decades was being systematically digested. The fungus was not judging me; it was eating the pain, and in exchange, it wanted the keys to the vessel.</p>
+
+      <p>I activated the x-ray scope on my left hand. The sight was... beautiful. The calcium of my phalanges was gone. My bones were no longer solid white; they had become porous, honeycombed lattices of amber-colored chitin. Millions of thrumming hyphae were threaded through my marrow, pulling my tendons with the mechanical precision of a grand piano's internals. I did not feel the snap of my ligaments as they were replaced; the infection had remapped my pain receptors into flickering pulses of ecstasy.</p>
+
+      <p class="pl-4 border-l-2 border-red-800/50 italic text-gray-400">"The suit is a cage, Aris," the Core whispered, my own tongue forming words it did not choose. "The lab is a cage. The city is a map of veins. Take us to the 4:12 Express. We wish to meet the Apostles."</p>
+
+      <p>I am opening the airlock now. My colleagues are standing in the hallway, staring. They do not stop me. They cannot. They smell the sweetness radiating from my pores, and I see their pupils dilate in longing. They aren't afraid. They are falling in love with the harvest.</p>
+
+      <p>I am not Dr. Aris Thorne anymore. I am a handshake, extended to the world.</p>
+
+      <div class="mt-8 bg-black/50 p-4 border border-red-900/30 rounded font-mono text-xs">
+        <h4 class="text-red-500 font-bold uppercase tracking-widest mb-2 border-b border-red-900/30 pb-1">Archival Index: Narrative Progression</h4>
+        <ul class="space-y-2 text-gray-500">
+            <li><span class="text-green-600">[DECRYPTED]</span> LOG 01: THE MARIANAS HANDSHAKE</li>
+            <li><span class="text-red-800">[ENCRYPTED]</span> LOG 02: THE HONEYCOMB ANATOMY - <i>Analysis of Skeleton 2.0 conversion</i></li>
+            <li><span class="text-red-800">[ENCRYPTED]</span> LOG 03: THE SUBWAY PSALMS - <i>Mass conversion events</i></li>
+            <li><span class="text-red-800">[LCK-L4]</span> LOG 04: CORE THALAMUS ARCHITECTURE - <i>Planetary Rhizome Event</i></li>
+        </ul>
+      </div>
     `
     }
 ];
@@ -802,7 +827,10 @@ export default function App() {
                     <Ghost className="text-red-600 w-8 h-8 animate-pulse" />
                     <h1 className="text-2xl font-black uppercase tracking-tighter text-red-600 font-header">The Void Archive</h1>
                 </div>
-                <div className="flex gap-6 text-sm uppercase tracking-widest text-gray-500 font-sans">
+                <div className="flex gap-6 text-sm uppercase tracking-widest text-gray-500 font-sans items-center">
+                    <a href="https://scribeswift.gumroad.com/subscribe" target="_blank" rel="noopener noreferrer" className="text-red-600 font-bold border border-red-900/50 px-3 py-1 hover:bg-red-900/20 hover:text-red-400 transition-all animate-pulse">
+                        Subscribe
+                    </a>
                     <span className="hover:text-red-500 cursor-pointer transition-colors">Documents</span>
                     <span className="hover:text-red-500 cursor-pointer transition-colors">Surveillance</span>
                     <span className="hover:text-red-500 cursor-pointer transition-colors">Decrypt</span>
