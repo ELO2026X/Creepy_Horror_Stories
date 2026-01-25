@@ -439,7 +439,7 @@ const BackroomsView = ({ onExit }) => {
         // 2. The Hollow Custodian
         const createHollowCustodian = (x, z) => {
             const group = new THREE.Group();
-            group.position.set(x, 0, z);
+            group.position.set(x, -3, z);
 
             const dirtyClothMat = new THREE.MeshStandardMaterial({ color: 0x4a4a4a, roughness: 0.9 });
             const rustMat = new THREE.MeshStandardMaterial({ color: 0x5a3a2a, metalness: 0.6, roughness: 0.8 });
@@ -1073,6 +1073,24 @@ export default function App() {
                                 </div>
                             </div>
                         ))}
+
+                        {/* --- AD SENSE CONTAINER --- */}
+                        <div className="col-span-full mt-12 mb-8 bg-[#0a0a0a] border border-gray-800/30 p-8 flex flex-col items-center justify-center min-h-[150px] relative overflow-hidden group">
+                            <div className="absolute top-0 left-0 w-full h-[1px] bg-red-900/20 animate-scan"></div>
+                            <p className="text-xs text-gray-700 font-mono uppercase tracking-[0.2em] mb-4">External Broadcast Signal [Sponsor]</p>
+
+                            <div className="w-full max-w-[728px] h-[90px] bg-black/40 border border-dashed border-gray-800 flex items-center justify-center text-gray-600 font-mono text-xs">
+                                {/* NOTE: You provided API Credentials (Client ID/Secret) which are for managing ads programmatically. 
+                                  For the website display, you typically need a 'pub-XXXXXXXXXXXXXXXX' ID. 
+                                  I have placed a placeholder below. Replace 'ca-pub-YOUR_REAL_ID' with your AdSense Publisher ID. */}
+                                <ins className="adsbygoogle block"
+                                    data-ad-client="ca-pub-FIXME_WITH_REAL_PUBLISHER_ID"
+                                    data-ad-slot="YOUR_AD_SLOT_ID"
+                                    data-ad-format="auto"
+                                    data-full-width-responsive="true"></ins>
+                                <span className="opacity-30">Ad Signal Loading... (Verify Publisher ID)</span>
+                            </div>
+                        </div>
                     </div>
                 )}
             </main>
