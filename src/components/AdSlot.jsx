@@ -6,14 +6,25 @@ const AdSlot = ({ publisherId = "ca-pub-6275575304084608", slotId = "YOUR_AD_SLO
             <div className="absolute top-0 left-0 w-full h-[1px] bg-red-900/20 animate-scan"></div>
             <p className="text-xs text-gray-700 font-mono uppercase tracking-[0.2em] mb-4">External Broadcast Signal [Sponsor]</p>
 
-            <div className="w-full max-w-[728px] h-[90px] bg-black/40 border border-dashed border-gray-800 flex items-center justify-center text-gray-600 font-mono text-xs overflow-hidden">
-                <ins className="adsbygoogle block"
+            <div className="w-full max-w-[728px] h-[90px] bg-black border border-gray-800 flex items-center justify-center relative overflow-hidden group-hover:border-red-900/40 transition-colors">
+
+                {/* Fallback / Background visuals (Visible if ad doesn't load) */}
+                <div className="absolute inset-0 opacity-20 pointer-events-none">
+                    <div className="w-full h-full bg-[url('https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif')] bg-cover opacity-10 mix-blend-screen"></div>
+                    <div className="absolute inset-0 bg-red-900/10 animate-pulse"></div>
+                </div>
+
+                <span className="absolute z-0 text-[10px] font-mono text-red-900/50 uppercase tracking-[0.3em] animate-pulse">
+                    $$ NO SIGNAL // AWAITING INPUT $$
+                </span>
+
+                {/* Ad Unit (Covers the background if active) */}
+                <ins className="adsbygoogle block relative z-10"
                     style={{ display: 'block', width: '100%', height: '100%' }}
                     data-ad-client={publisherId}
                     data-ad-slot={slotId}
                     data-ad-format="auto"
                     data-full-width-responsive="true"></ins>
-                <span className="opacity-30 absolute pointer-events-none">Ad Signal Active</span>
             </div>
         </div>
     );
