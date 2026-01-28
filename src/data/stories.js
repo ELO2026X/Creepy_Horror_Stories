@@ -1,13 +1,14 @@
 export const STORIES_DATA = [
-    {
-        id: 'backrooms',
-        title: 'Level 0: The Beige Eternity',
-        author: 'Surveyor K. Miller',
-        date: 'RECOVERED LOG',
-        is3D: true,
-        summary: 'If you aren\'t careful and you noclip out of reality in the wrong areas...',
-        tags: ['interactive', '3d', 'liminal-space'],
-        content: `
+  {
+    id: 'backrooms',
+    title: 'Level 0: The Beige Eternity',
+    author: 'Surveyor K. Miller',
+    date: 'RECOVERED LOG',
+    is3D: true,
+    imageUrl: 'images/wallpaper.png',
+    summary: 'If you aren\'t careful and you noclip out of reality in the wrong areas...',
+    tags: ['interactive', '3d', 'liminal-space'],
+    content: `
       <div class="font-mono text-sm border-b border-red-900/30 pb-4 mb-6">
         <p><span class="text-red-500 font-bold">CASE ID:</span> 001-A "THE LOBBY" &nbsp;&nbsp; <span class="text-red-500 font-bold">CLEARANCE:</span> LEVEL 3</p>
         <p><span class="text-red-500 font-bold">SUBJECT:</span> Surveyor K. Miller (M.E.G. Team "Compass")</p>
@@ -55,14 +56,15 @@ export const STORIES_DATA = [
         $$ARCHIVAL NOTE: SUBJECT RECLASSIFIED AS "CORRIDOR BIOMASS 409".$$
       </div>
     `
-    },
-    {
-        id: 'fractal-saint',
-        title: 'The Fractal Saint',
-        author: 'Unknown Scribe',
-        date: 'Age of the Gilded Rot',
-        tags: ['dark-fantasy', 'surreal', 'body-horror'],
-        content: `
+  },
+  {
+    id: 'fractal-saint',
+    title: 'The Fractal Saint',
+    author: 'Unknown Scribe',
+    date: 'Age of the Gilded Rot',
+    imageUrl: 'images/fractal-saint.png',
+    tags: ['dark-fantasy', 'surreal', 'body-horror'],
+    content: `
       <p>It began not with a curse, but with a diagram. The High Arithmetician, Vaelin, found it etched into the marrow of a dragon's fossilized spine deep within the Sunless Mines. It was a shape that defied the euclidean laws of our soft, rounded world—a recursive impossibility that caused the optic nerve to throb and weep blood just to look upon.</p>
       <p>He called it the "Splintered Angle."</p>
       <p>I served Vaelin tea the morning he solved the final equation. He didn't look at me. He was staring at his own hand, or what used to be his hand. The fingers were no longer fingers. They were... crystalline, but not stone. They were rearranged flesh. The joints had snapped and reset into jagged, recursive patterns. His index finger branched into three smaller fingers, which branched again into nine, infinitely smaller, disappearing into a microscopic, vibrating fuzz of meat-math that hummed with a low, agonizing frequency.</p>
@@ -71,14 +73,15 @@ export const STORIES_DATA = [
       <p>I blinded myself that night. It was the only way to stop the logic from taking root. I took the silver letter opener from Vaelin's desk and... well. Darkness is safety. Darkness is unstructured. But I can still hear them. The rhythmic <i>click-clack</i> of their tessellated feet on the stone, like a billion knitting needles. They are building a cathedral of bone and gristle, a monument to the Great Equation, and the air smells of ozone and flayed skin.</p>
       <p>And sometimes, in the silence, I feel my own ribs itching. They are shifting, snapping, trying to align. I trace the bumps of my spine and count them. <i>One, one-two-three, five, eight, thirteen...</i> they are following a sequence I do not want to know, but my marrow is already singing the answer.</p>
     `
-    },
-    {
-        id: 'clockwork-orphanage',
-        title: 'The Clockwork Orphanage',
-        author: 'Silas Vane',
-        date: '1888',
-        tags: ['steampunk', 'industrial-horror'],
-        content: `
+  },
+  {
+    id: 'clockwork-orphanage',
+    title: 'The Clockwork Orphanage',
+    author: 'Silas Vane',
+    date: '1888',
+    imageUrl: 'images/clockwork.png',
+    tags: ['steampunk', 'industrial-horror'],
+    content: `
       <p>The St. Jude’s Orphanage for the Mechanical Foundling towers over the smog-choked streets of London, a monolith of soot, iron, and the muffled screams of the "unoptimized." The Matron says we are lucky. She says flesh is a wet, rotting mistake—a temporary cage—but brass is eternal.</p>
       <p>I watched little Timmy go into the "Adjustment Room" yesterday. He was crying because he scraped his knee on the cobblestones. The Matron merely smiled, her teeth clicking like ceramic tiles in a windstorm. When he came out hours later, he didn't cry. He didn't even breathe. His knee was gone, replaced by a beautiful, shiny piston that hissed with scalding steam. But it wasn't just his knee. His eyes were brass orbs that spun independently, and his skin had been stretched so tight over a metal frame that it looked like translucent parchment.</p>
       <p>They take us one by one. I am hiding in the coal chute now, the dust clogging my lungs, but I can hear the grinding below. It is the sound of the Great Furnace, a belly of fire that smells of burning hair, rancid oil, and the copper tang of discarded blood. It never stops hungry.</p>
@@ -86,14 +89,15 @@ export const STORIES_DATA = [
       <p>"Come out, child," she calls, her voice the sound of grinding gears crushing gravel. "We have a new heart for you. A heart that will never break, never ache, never flutter. A heart that ticks in perfect time with the factory. You will never feel the cold again, because you will have no nerves to feel it with."</p>
       <p>I look at my own hands. They are trembling, but there is a strange, rhythmic pressure building behind my ribs. It isn't a pulse. It’s a winding sensation. <i>Tick. Tick. Tick.</i></p>
     `
-    },
-    {
-        id: 'whispering-fungus',
-        title: 'The Mycelium Confessional',
-        author: 'Emilio H. Ortiz III',
-        date: '01/24/2026',
-        tags: ['sci-fi', 'psychological', 'body-horror'],
-        content: `
+  },
+  {
+    id: 'whispering-fungus',
+    title: 'The Mycelium Confessional',
+    author: 'Emilio H. Ortiz III',
+    date: '01/24/2026',
+    imageUrl: 'images/fungus.png',
+    tags: ['sci-fi', 'psychological', 'body-horror'],
+    content: `
       <div class="font-mono text-sm border-b border-red-900/30 pb-4 mb-6">
         <p><span class="text-red-500 font-bold">CASE ID:</span> 6F5TTTCR1 &nbsp;&nbsp; <span class="text-red-500 font-bold">CLEARANCE:</span> LEVEL 4 (EYES ONLY)</p>
         <p><span class="text-red-500 font-bold">SUBJECT:</span> Dr. Aris Thorne (Primary Vector / Sample 89-B)</p>
@@ -220,5 +224,5 @@ export const STORIES_DATA = [
         $$ARCHIVAL NOTE: NO BIOLOGICAL SAMPLES RECOVERED. AREA 01-64 NOW CONSISTS ENTIRELY OF CALCIFIED AMBER STRUCTURES.$$
       </div>
     `
-    }
+  }
 ];

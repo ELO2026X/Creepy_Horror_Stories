@@ -1,5 +1,8 @@
 # Deploy Root Portal Script
-$repoUrl = "https://github.com/ELO2025X/elo2025x.github.io.git"
+$repoUrl = "https://github.com/ELO2026X/elo2026x.github.io.git"
+
+# 3. Add Remote (If needed)
+# git remote add origin https://github.com/ELO2026X/elo2026x.github.io.git"
 $tempDir = "temp_deploy_root"
 
 Write-Host "Starting deployment to $repoUrl..."

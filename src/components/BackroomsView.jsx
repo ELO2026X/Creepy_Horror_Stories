@@ -45,20 +45,23 @@ const BackroomsView = ({ onExit }) => {
         const textureLoader = new THREE.TextureLoader();
         console.log("Starting texture load...");
 
+        const baseUrl = import.meta.env.BASE_URL;
+        console.log("Loading textures from:", baseUrl);
+
         const wallTexture = textureLoader.load(
-            '/Creepy_Horror_Stories/images/wallpaper.png',
+            `${baseUrl}images/wallpaper.png`,
             () => console.log("Wallpaper loaded successfully"),
             undefined,
             (err) => console.error("Error loading wallpaper:", err)
         );
         const carpetTexture = textureLoader.load(
-            '/Creepy_Horror_Stories/images/carpet.png',
+            `${baseUrl}images/carpet.png`,
             () => console.log("Carpet loaded successfully"),
             undefined,
             (err) => console.error("Error loading carpet:", err)
         );
-        const custodianTexture = textureLoader.load('/Creepy_Horror_Stories/images/custodian.png');
-        const geometryTexture = textureLoader.load('/Creepy_Horror_Stories/images/geometry.png');
+        const custodianTexture = textureLoader.load(`${baseUrl}images/custodian.png`);
+        const geometryTexture = textureLoader.load(`${baseUrl}images/geometry.png`);
 
         // Fix texture wrapping
         wallTexture.wrapS = THREE.RepeatWrapping;
